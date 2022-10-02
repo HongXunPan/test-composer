@@ -1,0 +1,17 @@
+{
+    "name": "hongxunpan/test-composer",
+    "description": "test composer package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hongxunpan\\TestComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HongXunPan",
+            "email": "me@kangxuanpeng.com"
+        }
+    ],
+    "require": {}
+}
