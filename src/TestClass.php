@@ -13,4 +13,13 @@ class TestClass
     {
         return __METHOD__;
     }
+
+    public function testFunctionParam(...$param)
+    {
+        return [
+            'function' => __FUNCTION__,
+            'method' => __METHOD__,
+            'param' => $param
+        ];
+    }
 }
