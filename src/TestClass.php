@@ -22,4 +22,12 @@ class TestClass
             'param' => $param
         ];
     }
+    //0.0.1 end
+
+    //0.0.2 start
+    public function newFunction002()
+    {
+        //
+        return '0.0.2';
+    }
 }
